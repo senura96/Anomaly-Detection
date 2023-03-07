@@ -1,0 +1,6 @@
+# Anomaly-Detection
+Anomaly detection is the process of identifying data points or patterns in a dataset that deviate significantly from the norm or expected behavior. Anomalies, also known as outliers, can be caused by errors in data collection, data corruption, or rare events that are not representative of the typical behavior of the data.
+
+One popular algorithm for anomaly detection is the Isolation Forest algorithm. Isolation Forest is a tree-based algorithm that isolates outliers by recursively partitioning the data into subsets. The algorithm randomly selects a feature and a split point and then continues to randomly select features and splits until it isolates the outlier point(s) in a tree leaf. This isolation path, represented by the number of splits required to isolate the outlier, can be used as a measure of the anomaly score.
+
+The Isolation Forest algorithm has several advantages over other anomaly detection algorithms. It is efficient in detecting outliers in large datasets and can handle high-dimensional data. The algorithm is also robust to noise and does not require prior knowledge of the normal behavior of the data. However, the algorithm may not be suitable for datasets with a low number of outliers, as it may result in overfitting.
